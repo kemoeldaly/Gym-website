@@ -304,7 +304,7 @@ footer-list {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px; /* Adjust the value to increase or decrease the spacing between icons */
+  gap: 10px; 
 } 
 
 #footer-content {
@@ -320,19 +320,19 @@ footer-list {
 }
 
 .footer-links2 a[href="https://www.facebook.com/"] i {
-  color: #3b5998; /* Facebook blue */
+  color: #3b5998;
 }
 
 .footer-links2 a[href="https://www.instagram.com/"] i {
-  color: #c13584; /* Instagram gradient */
+  color: #c13584; 
 }
 
 .footer-links2 a[href="https://twitter.com/"] i {
-  color: #1da1f2; /* Twitter blue */
+  color: #1da1f2; 
 }
 
 .footer-links2 a[href="https://www.youtube.com/"] i {
-  color: #ff0000; /* YouTube red */
+  color: #ff0000; 
 }
 
 /* about page */
@@ -633,38 +633,19 @@ li:before {
 
 .signin-container {
   display: flex;
-  justify-content: flex-end;
-  padding-right: 30px;
-}
-
-.signin-box {
-  width: 400px;
-  border: 3px solid #f0c14b;
-  border-radius: 25px;
   justify-content: center;
   align-items: center;
 }
 
-.sign-in-btn {
-  display: inline-block;
-  max-width: 800px;
-  justify-content: flex-end;
-  margin: 20px auto 0;
-  background-color: #f0c14b;
-  color: black;
-  padding: 7px 17px;
-  font-size: 25px;
-  text-align: center;
-  border: 5px #f0c14b;
-  position: static;
-  width: 121%;
-  margin-left: -20px;
+.signin-box {
+  width: 400px;
+  height: 400px;
+  border: 3px solid #f0c14b;
+  border-radius: 25px;
 }
 
 .signin-box h2 {
   text-align: center;
-  margin-bottom: 20px;
-  align-items: end;
   font-size: 45px;
   font-family: 'Courgette', cursive;
   text-shadow: 3px 2px 4px rgba(255, 255, 255, 0.6),
@@ -679,6 +660,7 @@ li:before {
   font-size: 18px;
   text-decoration: none;
   color: #f0c14b;
+  font-weight:bolder;
 }
 
 #need-help {
@@ -686,11 +668,13 @@ li:before {
   padding: 10px;
   color: #f0c14b;
   text-decoration: none;
+  font-weight: bolder;
 }
 
 .form-group {
-  margin-bottom: 40px;
-  justify-content: center;
+  margin-bottom:20px;
+  align-items: center;
+  
 }
 
 .form-group2 {
@@ -715,18 +699,9 @@ li:before {
   margin-left: 22px;
 }
 
-.form-group a {
-  text-decoration: none;
-  color: #f0c14b;
-}
-
-.form-group a:hover {
-  color: #0056b3;
-}
-
 .form-group button {
   width: 100%;
-  padding: 10px;
+  padding-bottom: 10px;
   border: none;
   border-radius: 4px;
   background-color: #f0c14b;
@@ -734,7 +709,6 @@ li:before {
   font-size: 20px;
   font-weight: bold;
   border-radius: 30px;
-  cursor: pointer;
 }
 
 .form-group button:hover {
@@ -782,11 +756,9 @@ li:before {
 }
 
 .footer-links3 {
-  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
 }
 
 .footer-links3 a[href="https://www.facebook.com/"] i {
@@ -813,14 +785,13 @@ li:before {
 }
 
 .signup-container {
-  padding-right: 10px;
-  padding-bottom: 55px;
+  display: flex;
+ justify-content: center;
+  padding-bottom: 45px; 
 }
 
 .signup-box {
-  margin-left: auto;
-  align-items: center;
-  border-radius: 20px;
+  border-radius: 25px;
   border: 2px solid #f0c14b;
   width: 400px;
   height: 550px;
@@ -832,8 +803,6 @@ li:before {
 #dob-text,
 #up-password {
   width: 300px;
-  justify-content: center;
-  align-items: center;
   text-align: center;
   margin-left: 150px;
   margin-top: 10px;
@@ -855,27 +824,12 @@ li:before {
 .signup-box h3 {
   text-align: center;
   margin-bottom: 20px;
-  align-items: end;
   font-size: 35px;
   font-family: 'Courgette', cursive;
   text-shadow: 3px 2px 4px rgba(255, 255, 255, 0.6),
                0 0 10px rgba(170, 142, 14, 0.6),
                0 0 20px #f5b515,
                0 0 30px #f0c14b;
-}
-
-#signup-form {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 200px;
-  width: 350px;
-}
-
-.signup-form {
-  display: flex;
-  justify-content: space-evenly;
-  background-color: transparent;
 }
 
 /* free workout page */
@@ -946,19 +900,7 @@ li:before {
   justify-content: center;
 }
 
-#free-text {
-  text-align: center;
-  margin-bottom: 20px;
-  align-items: end;
-  font-size: 45px;
-  font-family: 'Courgette', cursive;
-  text-shadow: 3px 2px 4px rgba(255, 255, 255, 0.6),
-               0 0 10px rgba(235, 197, 28, 0.6),
-               0 0 20px #f5b515,
-               0 0 30px #f0c14b;
-}
-
-.free-box2 {
+.free-box {
   display: flex;
   flex-direction: column;
   width: 400px;
@@ -972,14 +914,31 @@ li:before {
 
 .ticket-number {
   text-align: center;
-  margin-bottom: 200px;
+  margin-bottom: 220px;
   color: #f0c14b;
   margin: 0px auto 0;
+  font-size: 20px;
   border-radius: 10px;
 }
 
 .ticket-number h3 {
   color: #f0c14b;
+  padding-top: 20px;
+}
+
+.ticket-number span {
+  margin-block: 25px;
+  font-size: 25px;
+}
+
+.submit-button {
+  background-color: #f0c14b;
+  width: 350px;
+  height: 50px;
+  border: 2px solid grey;
+  border-radius: 25px;
+ text-align: center;
+ margin-top: 50px;
 }
 
 
